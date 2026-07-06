@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flywire Clone</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./assets/flywirelogo.png" alt="logo" />
+        </div>
+
+        <ul class="nav-links">
+          <li>
+            <button class="pay-btn">Pay Now</button>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Platform <i class="fa-solid fa-chevron-down"></i></a>
+
+            <div class="dropdown-menu">
+              <a href="#">Global Payments Network</a>
+              <a href="#">Integrations</a>
+              <a href="#">Pay-by-link</a>
+              <a href="#">Checkout</a>
+              <a href="#">API</a>
+              <a href="#">ERP & CRM Systems</a>
+            </div>
+          </li>
+
+          <li class="mega-dropdown">
+            <a href="#">
+              Industries
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+            <div class="mega-menu">
+              <div class="column">
+                <h4>Education</h4>
+                <a href="#">Solution</a>
+                <a href="#">Institutions</a>
+                <a href="#">Agents</a>
+                <a href="#">Partners</a>
+              </div>
+
+              <div class="column">
+                <h4>Travel</h4>
+                <a href="#">Travel Operators</a>
+                <a href="#">DMCs</a>
+                <a href="#">Hospitality</a>
+                <a href="#">Partners</a>
+              </div>
+
+              <div class="column">
+                <h4>B2B</h4>
+                <a href="#">Solutions</a>
+                <a href="#">Partners</a>
+              </div>
+
+              <div class="column">
+                <h4>Healthcare</h4>
+                <a href="#">Solutions</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">
+              Resources
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+            <div class="dropdown-menu">
+              <a href="#">Blog</a>
+              <a href="#">Reports</a>
+              <a href="#">Videos</a>
+              <a href="#">Webinars</a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">
+              Company
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+            <div class="dropdown-menu">
+              <a href="#">About</a>
+              <a href="#">Leadership</a>
+              <a href="#">Investors</a>
+              <a href="#">Contact</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="nav-right">
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+          <div class="language">
+            <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-chevron-down"></i>
+
+            <div class="language-menu">
+              <a href="#">English</a>
+              <a href="#">Español</a>
+              <a href="#">Français</a>
+              <a href="#">Português</a>
+            </div>
+          </div>
+
+          <button class="demo-btn">Get a Demo</button>
+          <div class="bars">
+            <i
+              class="fa-solid fa-bars fa-xl"
+              style="color: rgb(116, 192, 252)"
+            ></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <span class="tag"> EDUCATION | TRAVEL | B2B | HEALTHCARE </span>
+
+        <h1>
+          Built to run the world's most
+          <span class="complex">complex</span> payments
+        </h1>
+
+        <p class="lead">
+          Tuition arrives. Bookings close. Invoices settle. Patients pay.
+        </p>
+
+        <p class="small">
+          Join the 5,000+ clients in high-stakes industries that handle their
+          hardest payments with Flywire.
+        </p>
+
+        <button class="cta">Offload complexity here →</button>
+      </div>
+
+      <div class="hero-image">
+        <img src="./assets/currencyimg.png" alt="hero image" />
+      </div>
+    </section>
+    <section class="clients-banner">
+      <div class="clients-container">
+        <div class="clients-text">
+          <h2>5,000+</h2>
+          <p>clients in more than 50 countries trust Flywire</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="client-logos">
+          <img src="./assets/beyondimg.png" alt="Madrid & Beyond" />
+          <img src="./assets/tconnectimg.png" alt="Travel Connect" />
+          <img src="./assets/UCLAimg.png" alt="UCLA" />
+          <img src="./assets/uniimg.png" alt="University of Pittsburgh" />
+        </div>
+      </div>
+
+      <div class="pause">
+        <i
+          class="fa-regular fa-circle-pause fa-sm"
+          style="color: rgb(240, 247, 252)"
+        ></i>
+        Pause
+      </div>
+    </section>
+
+    <section class="why-flywire">
+      <h2>Why <span class="flywire"> Flywire</span></h2>
+
+      <p>
+        Customers pay in their local currency, and you accept and settle
+        payments in yours — from anywhere in the world.
+      </p>
+    </section>
+    <section class="benefits">
+      <div class="benefit-card">
+        <div class="overlay-card">
+          <h3>Industry-Leading Software</h3>
+          <p>Vertical software deeply integrated into clients' core systems</p>
+        </div>
+      </div>
+
+      <div class="benefit-card">
+        <div class="overlay-card">
+          <h3>Global Payment Platform</h3>
+          <p>Multi-rail, regulated flows built on scale and trust</p>
+        </div>
+      </div>
+
+      <div class="benefit-card">
+        <div class="overlay-card">
+          <h3>True Vertical Expertise</h3>
+          <p>Industry experts with in-region presence globally</p>
+        </div>
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="features-left">
+        <div class="feature">
+          <div class="icon">
+            <img src="./assets/costs.png" alt="lower-costs" />
+          </div>
+
+          <div>
+            <h3>Lower payment costs</h3>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="icon">
+            <img src="./assets/reconcile.png" alt="reconcilation" />
+          </div>
+
+          <div>
+            <h3>Simplified reconciliation</h3>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="icon">
+            <img src="./assets/secure.png" alt="secure" />
+          </div>
+
+          <div>
+            <h3>Secure transactions</h3>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="icon">
+            <img src="./assets/support.png" alt="support" />
+          </div>
+
+          <div>
+            <h3>First-class support</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-right">
+        <div class="stat">
+          <h2>1,200+</h2>
+          <p>local payment methods across 240+ countries and 140 currencies</p>
+        </div>
+
+        <div class="stat">
+          <h2>100+</h2>
+          <p>pre-built, certified ERP, SIS, CRM + EHR integrations</p>
+        </div>
+      </div>
+    </section>
+    <section class="industries">
+      <div class="container">
+        <h2>
+          Mission-critical payments for the
+          <span class="flywire">industries</span> that demand them most
+        </h2>
+
+        <div class="industry-grid">
+          <article class="industry-card">
+            <span class="category">EDUCATION</span>
+
+            <div class="arrow">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+
+            <h3>Tuition management</h3>
+
+            <p>
+              Support the financial journey for every student, domestic and
+              international, from enrollment through graduation. Flywire is
+              integrated with 70+ SISs and educational systems globally and a
+              network of 20,000 education recruitment agents.
+            </p>
+          </article>
+
+          <article class="industry-card">
+            <span class="category">B2B</span>
+
+            <div class="arrow">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+
+            <h3>Invoice-to-cash</h3>
+
+            <p>
+              Automate the entire billing process through settlement, with
+              embedded payments.
+            </p>
+          </article>
+
+          <article class="industry-card">
+            <span class="category">TRAVEL</span>
+
+            <div class="arrow">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+
+            <h3>Luxury bookings and hotel event workflows</h3>
+
+            <p>
+              Ease bookings for international travelers, and secure payments for
+              events at hotels.
+            </p>
+          </article>
+
+          <article class="industry-card">
+            <span class="category">HEALTHCARE</span>
+
+            <div class="arrow">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+
+            <h3>Revenue cycle management</h3>
+
+            <p>
+              Provide patients with flexible and secure options to pay their
+              bills online or in-person.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="sales-cta">
+      <h2><span class="flywire">Chat</span> with our sales team</h2>
+
+      <a href="#" class="cta-btn">
+        Get in touch
+        <span>↗️</span>
+      </a>
+    </section>
+
+    <section class="certifications">
+      <h2>Certifications</h2>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <img src="./assets/soc2img.png" alt="SOC 2" />
+        </div>
+
+        <div class="cert-card">
+          <img src="./assets/pciimg.png" alt="PCI DSS" />
+        </div>
+
+        <div class="cert-card">
+          <img src="./assets/nachaimg.png" alt="Nacha" />
+        </div>
+
+        <div class="cert-card">
+          <img src="./assets/hitrustimg.png" alt="HITRUST" />
+        </div>
+
+        <div class="cert-card">
+          <img src="./assets/horseimg.png" alt="Certification" />
+        </div>
+
+        <div class="cert-card">
+          <img src="./assets/starimg.png" alt="STAR" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Left Section -->
+        <div class="footer-left">
+          <div class="footer-brand">
+            <img src="./assets/flywirelogo.png" alt="Flywire Logo" />
+
+            <a href="#" class="payment-btn"> Make a Payment </a>
+          </div>
+
+          <div class="footer-links">
+            <div class="column">
+              <a href="#">Platform</a>
+              <a href="#">Industries</a>
+              <a href="#">Security</a>
+              <a href="#">Search</a>
+              <a href="#">Contact</a>
+            </div>
+
+            <div class="column">
+              <a href="#">Company</a>
+              <a href="#">Investors</a>
+              <a href="#">Resources</a>
+              <a href="#">Payer Help</a>
+              <a href="#">Fraud Prevention</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="footer-right">
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-weixin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+          </div>
+
+          <p class="disclaimer">
+            Regulated money transmission services are provided by Flywire Global
+            Corp., a licensed money transmitter.
+          </p>
+
+          <div class="legal-links">
+            <a href="#">Legal & Privacy</a>
+
+            <a href="#"> Modern Slavery and Human Trafficking Statement </a>
+
+            <div class="legal-row">
+              <a href="#">Supplier Code of Conduct</a>
+              <a href="#">AML Compliance</a>
+            </div>
+
+            <div class="legal-row">
+              <a href="#">US States Disclosures</a>
+              <a href="#">Cookie Declaration / Opt Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        Copyright ©Flywire. 2011–2026 All rights reserved. Flywire is a
+        trademark of Flywire Corporation.
+      </div>
+    </footer>
+  </body>
+</html>
