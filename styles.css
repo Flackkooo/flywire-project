@@ -987,10 +987,6 @@ header {
     grid-template-columns: 1fr;
   }
 
-  .industries h2 {
-    font-size: 1.5rem;
-  }
-
   .demo-btn,
   .pay-btn {
     display: none;
@@ -1020,6 +1016,7 @@ header {
   .overlay-card {
     width: 60%;
     height: 40%;
+    padding: 20px 15px;
   }
 
   .overlay-card h3 {
@@ -1040,7 +1037,7 @@ header {
   }
 
   .logo img {
-    width: 80px;
+    width: 65px;
   }
 
   .bars {
@@ -1057,5 +1054,138 @@ header {
 
   .divider {
     display: none;
+  }
+
+  .footer {
+    padding: 30px 20px 15px;
+  }
+}
+
+@media (max-width: 351px) {
+  .feature h3 {
+    font-size: 10px;
+  }
+
+  .feature img {
+    width: 20px;
+  }
+
+  .footer {
+    padding: 30px 20px 15px;
+  }
+
+  .navbar {
+    padding: 0 30px;
+  }
+
+  .bars {
+    padding: 0 2px 2px;
+  }
+
+  .bars i {
+    font-size: 14px;
+  }
+
+  .footer-brand img {
+    width: 60px;
+  }
+
+  .payment-btn {
+    padding: 5px;
+  }
+
+  .footer-brand a {
+    font-size: 10px;
+  }
+
+  .legal-links a,
+  .socials a,
+  .column a,
+  .disclaimer,
+  .footer-brand a,
+  .copyright {
+    font-size: 8px;
+  }
+
+  .hero-content h1 {
+    font-size: 15px;
+  }
+
+  .lead {
+    font-size: 10px;
+  }
+
+  .small {
+    font-size: 7px;
+  }
+
+  .cta {
+    padding: 5px;
+  }
+
+  .hero-image {
+    width: 200px;
+  }
+
+  .clients-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .clients-text p {
+    font-size: 0.5rem;
+  }
+
+  .why-flywire h2 {
+    font-size: 1.5rem;
+  }
+
+  .why-flywire p {
+    font-size: 0.8rem;
+  }
+
+  .stat p {
+    font-size: 12px;
+  }
+
+  .industries h2 {
+    font-size: 1rem;
+  }
+
+  .category {
+    font-size: 0.6rem;
+  }
+
+  .industry-card h3 {
+    font-size: 0.8rem;
+  }
+
+  .industry-card p {
+    font-size: 0.7rem;
+  }
+
+  .arrow {
+    font-size: 0.8rem;
+    width: 24px;
+    height: 24px;
+  }
+
+  .sales-cta h2 {
+    font-size: 0.75rem;
+  }
+
+  .cta-btn {
+    font-size: 10px;
+  }
+
+  .cta-btn span {
+    font-size: 10px;
+  }
+
+  .sales-cta {
+    padding: 20px 5px;
+  }
+
+  .certifications h2 {
+    font-size: 1.5rem;
   }
 }
